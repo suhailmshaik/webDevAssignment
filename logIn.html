@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Commissioner&family=Reenie+Beanie&family=Rock+Salt&display=swap"
+      rel="stylesheet"
+    />
+    <title>Sign up</title>
+  </head>
+  <body>
+    <div class="alert">
+      <p>Logged in successfully!</p>
+    </div>
+    <section>
+      <h1>Log in</h1>
+      <a href="">
+        <button type="button" class="google">
+          <img class="icon" src="./google.png" alt="google-icon" />
+          Log in with google
+        </button></a
+      >
+      <br />
+      <br />
+      <form>
+        <label for="email">Email:</label>
+        <br />
+        <input type="text" name="email" id="email" />
+        <br />
+        <p class="emailError" class="show">please enter a valid email ID</p>
+        <br />
+        <label for="password">Password:</label>
+        <br />
+        <input type="password" name="password" id="password" />
+        <br />
+        <p class="passError" class="show">
+          password should be between 4 to 12 characters
+        </p>
+        <br />
+        <input type="checkbox" id="rememberMe" name="rememberMe" />
+        <label for="rememberMe"> Remember me</label>
+        <br />
+        <br />
+      </form>
+      <button class="logIn" type="submit">Log in</button>
+      <p>Don't have an account?</p>
+      <a href="./index.html">Sign up</a>
+      <br />
+    </section>
+
+    <script src="./login.js"></script>
+  </body>
+</html>
